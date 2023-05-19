@@ -1,0 +1,20 @@
+{
+  "name": "otpapi",
+  "version": "1.0.0",
+  "description": "An API for login using otp",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "author": "Mayuresh Attarde",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.0",
+    "kue": "^0.11.6",
+    "mongoose": "^7.1.1",
+    "nodemailer": "^6.9.2"
+  }
+}
